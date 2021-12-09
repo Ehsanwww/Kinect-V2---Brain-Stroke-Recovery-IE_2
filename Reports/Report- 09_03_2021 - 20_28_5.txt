@@ -1,0 +1,5 @@
+Name,Shoulder,Elbow,Wrist,Which_hand,State,Time_create_record,Time_grab - Time_start_objective (sec),Time_put - Time_pickup(sec),Level,Ball_number,Score
+,91.6,164.7,360,Right,Pick,20:28:32,22.2,--,1,5.3,--
+,46.5,180.3,360,Right,Put,20:28:36,--,4.2,1,5.3,0
+,36.5,169.8,360,Left,Pick,20:28:46,7.2,--,1,6.7,--
+,30.3,178.6,360,Left,Put,20:28:49,--,3.2,1,6.7,0

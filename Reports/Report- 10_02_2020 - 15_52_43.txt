@@ -1,0 +1,11 @@
+Name,Shoulder,Elbow,Wrist,Which_hand,State,Time_create_record,Time_grab - Time_start_objective (sec),Time_put - Time_pickup(sec)
+,43.1,147.4,360,Right,Pick,15:52:53,6.3,--
+,34.1,158.3,360,Right,Put,15:52:56,--,3.3
+,24.1,154,360,Left,Pick,15:53:1,1.8,--
+,30.3,156.2,360,Left,Put,15:53:3,--,2.5
+,56.9,148,360,Right,Pick,15:53:18,7.8,--
+,42.2,153.4,360,Right,Put,15:53:21,--,3.1
+,48.2,125.8,360,Left,Pick,15:53:33,8.8,--
+,35.6,165.5,360,Left,Put,15:53:38,--,4.9
+,72.5,97.3,360,Right,Pick,15:54:12,3.9,--
+,43.4,147.8,360,Right,Put,15:54:17,--,4.4

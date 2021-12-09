@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 252761cbdd8672846afd76c6645a77af
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Clock_Face
+    100004: Clock_Hour_Hand
+    100006: Clock_Minute_Hand
+    100008: Clock_Num_01
+    100010: Clock_Num_02
+    100012: Clock_Num_03
+    100014: Clock_Num_04
+    100016: Clock_Num_05
+    100018: Clock_Num_06
+    100020: Clock_Num_07
+    100022: Clock_Num_08
+    100024: Clock_Num_09
+    100026: Clock_Num_10
+    100028: Clock_Num_11
+    100030: Clock_Num_12
+    100032: Clock_Second_Hand
+    100034: Clock_Shaft
+    400000: //RootNode
+    400002: Clock_Face
+    400004: Clock_Hour_Hand
+    400006: Clock_Minute_Hand
+    400008: Clock_Num_01
+    400010: Clock_Num_02
+    400012: Clock_Num_03
+    400014: Clock_Num_04
+    400016: Clock_Num_05
+    400018: Clock_Num_06
+    400020: Clock_Num_07
+    400022: Clock_Num_08
+    400024: Clock_Num_09
+    400026: Clock_Num_10
+    400028: Clock_Num_11
+    400030: Clock_Num_12
+    400032: Clock_Second_Hand
+    400034: Clock_Shaft
+    2100000: Default_Material
+    2100002: blinn1
+    2100004: phong1
+    2300000: Clock_Face
+    2300002: Clock_Hour_Hand
+    2300004: Clock_Minute_Hand
+    2300006: Clock_Num_01
+    2300008: Clock_Num_02
+    2300010: Clock_Num_03
+    2300012: Clock_Num_04
+    2300014: Clock_Num_05
+    2300016: Clock_Num_06
+    2300018: Clock_Num_07
+    2300020: Clock_Num_08
+    2300022: Clock_Num_09
+    2300024: Clock_Num_10
+    2300026: Clock_Num_11
+    2300028: Clock_Num_12
+    2300030: Clock_Second_Hand
+    2300032: Clock_Shaft
+    3300000: Clock_Face
+    3300002: Clock_Hour_Hand
+    3300004: Clock_Minute_Hand
+    3300006: Clock_Num_01
+    3300008: Clock_Num_02
+    3300010: Clock_Num_03
+    3300012: Clock_Num_04
+    3300014: Clock_Num_05
+    3300016: Clock_Num_06
+    3300018: Clock_Num_07
+    3300020: Clock_Num_08
+    3300022: Clock_Num_09
+    3300024: Clock_Num_10
+    3300026: Clock_Num_11
+    3300028: Clock_Num_12
+    3300030: Clock_Second_Hand
+    3300032: Clock_Shaft
+    4300000: Clock_Hour_Hand
+    4300002: Clock_Second_Hand
+    4300004: Clock_Minute_Hand
+    4300006: Clock_Shaft
+    4300008: Clock_Num_08
+    4300010: Clock_Num_09
+    4300012: Clock_Num_11
+    4300014: Clock_Num_12
+    4300016: Clock_Num_10
+    4300018: Clock_Num_01
+    4300020: Clock_Num_02
+    4300022: Clock_Num_03
+    4300024: Clock_Num_04
+    4300026: Clock_Num_05
+    4300028: Clock_Num_06
+    4300030: Clock_Num_07
+    4300032: Clock_Face
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

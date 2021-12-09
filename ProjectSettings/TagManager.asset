@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Clock
+  - Left
+  - Right
+  - Red
+  - Blue
+  - Yellow
+  - clock_num
+  - Score
+  - LeftHand_3dChar
+  - RightHand_3dChar
+  - Right_puppet
+  - Left_puppet
+  - history_label
+  - Kinect_manager
+  - Panel_UI
+  - Scenario
+  - Balls
+  - obj
+  - Red_Basket
+  - Yellow_Basket
+  - Blue_Basket
+  - Tashvig_sound
+  - start_sound
+  - clickable_component
+  - Beep_sound
+  - Grab_sound
+  - Activation_panel
+  - hour
+  - min
+  - background_music
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Collider_UI_Text
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

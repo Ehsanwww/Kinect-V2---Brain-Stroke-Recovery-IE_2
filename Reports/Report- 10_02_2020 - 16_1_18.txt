@@ -1,0 +1,5 @@
+Name,Shoulder,Elbow,Wrist,Which_hand,State,Time_create_record,Time_grab - Time_start_objective (sec),Time_put - Time_pickup(sec)
+Ehsan-h-,29.9,153.3,360,Right,Pick,16:1:46,9.3,--
+Ehsan-h-,38.6,161.2,360,Right,Put,16:1:49,--,3.1
+Ehsan-h-,27.3,158.8,360,Left,Pick,16:1:56,4.2,--
+Ehsan-h-,25.2,163.5,360,Left,Put,16:2:1,--,4.7
