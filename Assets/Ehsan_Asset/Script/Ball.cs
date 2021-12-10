@@ -113,6 +113,9 @@ public class Ball : MonoBehaviour
     private AudioSource background_music;
 
 
+    private Next_Scenario_Debug my_next_scenario;
+
+
     private void Start()
     {
         label_time = GetComponentInChildren<TextMesh>(); //get UI Label Element which is Childern of ball(UI Label Timer)
@@ -142,6 +145,10 @@ public class Ball : MonoBehaviour
         //my_animator.enabled = false;
 
         background_music = GameObject.FindGameObjectWithTag("background_music").GetComponent<AudioSource>();
+
+
+        my_next_scenario = GameObject.FindGameObjectWithTag("Next_Scenario").GetComponent<Next_Scenario_Debug>();
+
     }
 
 
@@ -1073,6 +1080,11 @@ public class Ball : MonoBehaviour
             Ball_manager.next_scenario();
 
 
+            my_next_scenario.Next_Scenario();
+            //???????????
+
+
+
             //Ball_manager.ball_in_basket = 0; //when new scenario generate, ball in basket must set to zero.
 
 
@@ -1111,7 +1123,7 @@ public class Ball : MonoBehaviour
 
             // Ball_manager.My_Scenario.Scenario_2();
 
-           // ball_in_basket = 0; //when new scenario generate, ball in basket must set to zero.
+            // ball_in_basket = 0; //when new scenario generate, ball in basket must set to zero.
         }
 
 

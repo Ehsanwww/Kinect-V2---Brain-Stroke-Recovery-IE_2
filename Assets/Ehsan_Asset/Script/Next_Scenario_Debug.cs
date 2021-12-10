@@ -4,20 +4,21 @@ using UnityEngine;
 using UnityEngine.Events;
 public class Next_Scenario_Debug : MonoBehaviour
 {
-    private byte count = 1;
+    private static byte count =1 ;
 
     UnityEvent my_event;
+
+    public bool Game_restriction = false;
 
     //private hand_event Right_hand;
     //private hand_event left_hand;
     public void Next_Scenario()
     {
+        Destroy_balls_scene(); //Destroy all balls in Scene.
+
         count++;
 
-        if (count == 8) 
-        {
-            count = 1;
-        }
+        restrict_levels();
 
         switch (count)
         {
@@ -47,6 +48,33 @@ public class Next_Scenario_Debug : MonoBehaviour
         }
 
 
+    }
+
+    private void restrict_levels()
+    {
+        if (!Game_restriction)
+        {
+
+
+            if (count == 8)
+            {
+                count = 1;
+            }
+        }
+
+        else
+        {
+            if (count == 4)
+            {
+                count = 1;
+            }
+
+            else if(count == 0)
+            {
+                count = 3;
+            }
+
+        }
     }
 
     public void Next_Scenario_2() //used when click on Next_Scenario Button.
@@ -114,11 +142,17 @@ public class Next_Scenario_Debug : MonoBehaviour
         //    count = 1;
         //}
 
-        
+
+        count--;
+
+
+        restrict_levels();
 
 
 
-        switch (Ball_manager.My_Scenario.pri_Scenario) //What is privious Scenario of current Scenario.
+
+        //switch (Ball_manager.My_Scenario.pri_Scenario) //What is privious Scenario of current Scenario.
+        switch (count)
         {
             case 1:
                 Ball_manager.My_Scenario.Scenario_1();

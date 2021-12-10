@@ -34,6 +34,7 @@ TagManager:
   - hour
   - min
   - background_music
+  - Next_Scenario
   layers:
   - Default
   - TransparentFX

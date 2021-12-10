@@ -8019,7 +8019,7 @@ GameObject:
   - component: {fileID: 706304317}
   m_Layer: 0
   m_Name: Next_Scenario
-  m_TagString: Untagged
+  m_TagString: Next_Scenario
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8085,7 +8085,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 706304317}
-        m_MethodName: Next_Scenario_2
+        m_MethodName: Next_Scenario
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8146,6 +8146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670ea50f2970c514c9aa523abc706887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Game_restriction: 1
 --- !u!1 &706720815
 GameObject:
   m_ObjectHideFlags: 0
@@ -14045,6 +14046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670ea50f2970c514c9aa523abc706887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Game_restriction: 1
 --- !u!114 &1177660639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20634,6 +20636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670ea50f2970c514c9aa523abc706887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Game_restriction: 0
 --- !u!1001 &1815098374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21210,6 +21213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670ea50f2970c514c9aa523abc706887, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Game_restriction: 0
 --- !u!114 &1855169251
 MonoBehaviour:
   m_ObjectHideFlags: 0
